@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        .containt{
+            width: 100%;
+          height: 700px; 
+          display: flex;
+          flex-direction: row;
+        }
+        #container{
+            width: 100px;
+          height: 700px;
+        }
+       #mainDiv{
+        width: 300px;
+          height: 400px;
+          display: flex;
+          flex-direction: column;
+       }
+      #imgDiv{
+     width: 100%;
+     height: 60%;
+
+       }
+       #priceDiv{
+        width: 50%;
+     height: 40%;
+       }
+       #imgDiv>img{
+           width: 100%;
+           width: 100%;
+       }
+       </style>
+</head>
+<body>
+
+  
+
+    <div class="containt">
+    <input style="height: 20px;" type="text" oninput="choseMenu()" id="menu" >
+    <!-- <button onclick="choseMenu()">Menu</button> -->
+    <div id="container">
+
+    </div>
+</div>
+</body>
+</html>
+<script src="index.js"></script>
